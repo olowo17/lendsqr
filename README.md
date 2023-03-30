@@ -7,7 +7,7 @@ This project was built with React with TypeScript and SCSS.
 Run npm install to install all dependencies such as axios, yup, sass, etc
 
 ### `Usage`
-Upon signing in correctly, you will be able to access customer details abd perform operations such as filter and reset the search, view cusomer profile, blacklist or activate a user
+Upon signing in correctly, you will be able to access customer details abd perform operations such as filter and reset the search, view customer profile, blacklist or activate a user.
 
 ## Attachement
 
