@@ -218,13 +218,13 @@ input[type= "submit"]{
     right: 30%;
     bottom:0;
     transform: translateY(-60%);
-    background-color: yellow;
+
 
     @media only screen and (max-width:600px)  {
       right: 30%;
       bottom:10px;
       left: 45%;
-      background-color: blue;
+
       font-size: 12px;
 
     }
@@ -232,7 +232,7 @@ input[type= "submit"]{
       right: 30%;
       bottom:0;
       left: 60%;
-      background-color: red;
+      
 
     }
 
