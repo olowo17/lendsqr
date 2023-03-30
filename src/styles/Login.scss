@@ -157,15 +157,13 @@ input[type= "submit"]{
     &:hover{
         background-color: $darkBlue;
     }
-    @media only screen and (max-width: $small-screen) {
-        width: 250px;
-        height: 40px;
-      }
 
-      @media only screen and (min-width:500px) and (max-width:605px)   {
-        width: 350px;
-        height: 40px;
-      }
+
+    @media only screen and (min-width:500px) and (max-width:605px)   {
+      width: 350px;
+      height: 40px;
+    }
+
 
 }
 
@@ -175,7 +173,7 @@ input[type= "submit"]{
    margin-bottom: 10px;
    border:2px solid rgba(84, 95, 125, 0.15);
    @media only screen and (max-width: $small-screen) {
-    width: 250px;
+    width: 350px;
     height: 40px;
   }
   @media only screen and (min-width:500px) and (max-width:605px)   {
@@ -192,7 +190,7 @@ input[type= "submit"]{
     border:1px solid $red;
     color:$red;
     @media only screen and (max-width: $small-screen) {
-        width: 250px;
+        width: 350px;
         height: 40px;
       }
 
