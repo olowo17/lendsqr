@@ -1,0 +1,86 @@
+@import "./Variable.scss";
+.navbar{
+    @media only screen and (min-width: $medium-screen) {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        display: grid;
+        height: 150px;
+        margin:auto;
+        justify-content: center;
+        width: 100%;
+        ;
+      }
+
+      @media only screen and (max-width: $small-screen) {
+        display: grid;
+        height: 250px;
+        padding: 10px;
+        justify-content: center;
+        width: 100%;
+
+      }
+
+}
+
+
+.navbar .left-side{
+    display: flex;
+    @media only screen and (max-width: $medium-screen) {
+        display: grid;
+        text-align: start;
+      }
+
+      @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+
+
+}
+
+#logo{
+    @media only screen and (max-width: $small-screen)  {
+        margin-right: 50px;
+        margin-left: 20px;
+
+    }
+
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        margin-right: 50px;
+        margin-left: 20px;
+
+    }
+
+    @media only screen and (min-width: $medium-screen) and (min-width: $large-screen)  {
+        margin-right: 100px;
+        margin-left: 40px;
+}
+
+}
+
+
+#userprofile{
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#searchbar{
+
+    @media only screen and (min-width: $medium-screen) and (max-width: $large-screen)  {
+         width: 100px;
+         margin-left: 50px;
+    }
+
+    @media only screen and (max-width: $medium-screen)   {
+
+         margin-left: 20px;
+    }
+}

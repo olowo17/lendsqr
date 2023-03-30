@@ -1,0 +1,77 @@
+@import "./Variable.scss";
+
+.user-summary{
+
+    @media only screen and (max-width: $small-screen) {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+
+
+      }
+    @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+        justify-content: space-around;
+        width: 100vw;
+      }
+    @media only screen and (min-width: $medium-screen) and (max-width: $large-screen) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+        justify-content: space-around;
+        width: 70%;
+      }
+
+}
+
+#user{
+    width: 240px;
+    height: 160px;
+    @media only screen and (max-width: $small-screen) {
+        width: 150px;
+
+      }
+}
+
+h5{
+    color: $gray;
+    font-weight: 500;
+}
+
+h2{
+    color:$darkBlue;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.usericon{
+    border-radius: 100%;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+#usersIcon{
+
+    background-color: #FCE8FF;
+    color: #DF18FF;
+
+}
+
+#active-user{
+
+    background-color: #EEE8FF;
+    color:#5718FF;
+}
+
+.user-with-loan{
+    color: #F55F44;
+    background-color: #FFEBF0;
+
+}
+
+.coins{
+    color: #FF3366;
+    background-color: #FFEBF0;
+
+}

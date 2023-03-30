@@ -1,0 +1,207 @@
+@import "./Variable.scss";
+
+.general-details{
+    margin-top: 30px;
+}
+.user-dashboard{
+    width: 100%;
+    margin: 50px 20px;
+}
+.flex-around{
+    @include flex-around();
+}
+
+.flex-start{
+    @include flex-start();
+}
+.flex{
+    @include flex();
+}
+
+.flex-between{
+    @include flex-between();
+    margin-bottom: 10px;
+}
+
+.gold{
+    color: gold;
+}
+
+.white{
+    color:$white;
+    border:2px solid gold;
+}
+
+.grey{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #929aaa;
+    padding: 20px;
+}
+.user-button{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.blacklist{
+    color: red;
+    border: 2px solid red;
+    margin-right: 10px;
+}
+
+.blacklist:hover{
+    color: white;
+    border: 2px solid $red;
+    margin-right: 10px;
+    background-color: $red;
+    cursor: pointer;
+}
+.activate
+{
+    color:$tBlue;
+    border: 2px solid $tBlue;
+    margin-left: 10px;
+}
+
+.activate:hover{
+    color: white;
+    border: 2px solid $tBlue;
+    background-color: $tBlue;
+    cursor: pointer;
+
+}
+
+.m-r-4{
+    margin: auto 40px;
+}
+.m-r-2{
+    margin-right: 20px;
+}
+
+.b-2{
+
+    border-left: 2px solid #929aaa;
+    border-right: 2px solid #929aaa;
+
+}
+
+.user{
+    height: 30px;
+    margin: auto;
+
+}
+
+.user-details{
+    text-align: start;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.user-tier{
+    padding: auto 20px;
+    width: 150px;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    @media only screen and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 100%;
+      }
+
+}
+
+.general ul{
+    width: 100%;
+    list-style: none;
+    margin-left: 10px;
+
+
+}
+
+ .details{
+    border-bottom: 2px solid $tBlue;
+}
+
+.user-general-details{
+    margin-bottom: 40px;
+}
+.general-details{
+    margin: auto;
+}
+
+.education{
+    text-align: start;
+    margin: 20px auto;
+    font-weight: 400;
+}
+
+.education-header{
+    font-weight: 500;
+}
+.education-and-employment{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    color: $gray;
+    margin-top: 20px;
+    @media only screen and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 100%;
+      }
+}
+
+.other-details{
+    margin-top: 20px;
+}
+
+.personal-information{
+    margin-top: 20px;
+    text-align: start;
+}
+.personal-info{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:15px;
+    color: $gray;
+    @media only screen and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 100%;
+      }
+}
+.personal-info-header,.guarantors-header {
+    font-weight: 500;
+}
+
+.socials, .guarantor{
+    text-align: start;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.social-container, .guarantor-container{
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+    color: $gray;
+    @media only screen and (max-width: $medium-screen) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        width: 100%;
+      }
+}

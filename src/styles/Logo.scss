@@ -1,0 +1,10 @@
+@import "./Variable.scss";
+.logo{
+
+ @include logo();
+ font-weight:600;
+ font-size: 25px;
+ span{
+    margin-left: 10px;
+ }
+}

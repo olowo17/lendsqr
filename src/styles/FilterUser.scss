@@ -1,0 +1,74 @@
+@import "./Variable.scss";
+
+.form{
+    z-index: 999;
+    position: absolute;
+    top: 70px;
+    left:10px;
+    text-align: left;
+    width: 250px;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color:#545F7D;
+
+
+}
+
+.filter-card{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(33, 63, 125, 0.06);
+    border-radius: 4px;
+}
+
+.form-control{
+margin: 10px;
+
+}
+
+.form .form-body{
+
+    border-radius: 4px;
+}
+
+.grid{
+    display: grid;
+}
+
+.filter-status{
+    width: 230px;
+}
+
+
+.form-body input, .filter-status #status{
+    height: 40px;
+    width: 230px;
+    left: 378px;
+    border-radius: 8px;
+    margin-bottom:5px;
+    border: 0.2px solid #213F7D;
+    color:#545F7D;
+    outline: none;
+
+}
+
+.button-control{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button-control .reset{
+    background-color: transparent;
+    color: $darkBlue;
+}
+.button-control .filter{
+    background-color: $tBlue;
+    color: $white;
+}

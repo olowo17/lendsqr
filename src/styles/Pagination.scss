@@ -1,0 +1,32 @@
+@import "./Variable.scss";
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+
+}
+
+
+.active-page{
+    background-color:$tBlue;
+    color: $darkBlue;
+}
+.other-pages{
+    background-color: $white;
+
+}
+
+.pages, #pages{
+    margin: auto 2px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+#pages-nav{
+    background-color: #E5E8EE;
+    border: none;
+    border-radius: 5px;
+
+}

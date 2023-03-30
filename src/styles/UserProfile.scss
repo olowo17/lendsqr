@@ -1,0 +1,33 @@
+@import "./Variable.scss";
+.flex{
+    display: flex;
+    @media only screen and (max-width: $medium-screen) and (max-width: $medium-screen) {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+
+      }
+}
+
+#m-a{
+    margin-top:10px;
+}
+
+
+.flex li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin: auto 10px;
+
+}
+
+.avatar{
+    border-radius: 100%;
+    margin: auto 10px;
+}
+
+.bell{
+    height: 20px;
+    margin-top: 12px;
+    color:$gray;
+}

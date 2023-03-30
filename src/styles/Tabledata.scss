@@ -1,0 +1,78 @@
+@import "./Variable.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.user-status{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.status{
+    border-radius: 50px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    @media only screen and (max-width: $small-screen)  {
+
+      display: none;
+ }
+ @media only screen and (max-width: 650px)  {
+
+  display: none;
+}
+@media only screen and (min-width: 650px) and (max-width: 767px)  {
+
+  display: none;
+}
+
+}
+
+#ellipsis{
+    background-color: $white;
+    border: none;
+    cursor: pointer;
+    @media only screen and (max-width: $small-screen)  {
+
+      display: none;
+ }
+
+}
+
+.user-status {
+
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+    @media only screen and (max-width: 650px)  {
+
+      display: none;
+    }
+    @media only screen and (min-width: 650px) and (max-width: 767px)  {
+
+      display: none;
+    }
+
+
+  }
+
+
+
+  .status.Active {
+    color: rgba(57, 205, 98, 1);
+    background-color: #F4FDF7;
+  }
+
+  .status.Blacklisted {
+    color:  rgba(228, 3, 59, 1);
+    ;
+    background-color: #FCE6EB
+  }
+
+  .status.Pending{
+    color: #E9B200;
+  background-color: #FDF7E5
+  }
+
+  .status.Inactive{
+    color:grey;
+    background-color: #F5F5F7;
+}

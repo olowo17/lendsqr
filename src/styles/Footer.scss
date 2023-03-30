@@ -1,0 +1,17 @@
+@import "./Variable.scss";
+
+.left{
+    color: $gray;
+    font-size: 20px;
+}
+.left .size {
+    background-color: #E5E8EE;
+    margin: auto 10px;
+    padding: 3px;
+    border-radius: 8px;
+    border: none;
+    color: $darkBlue;
+    font-size: 16px;
+    font-weight: 500;
+
+}
