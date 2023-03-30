@@ -44,26 +44,32 @@ const Users = () => {
 
 
     return (
-        <>
+        <div className='Users'>
             <Navbar/>
             <div className='dashboard'>
                 <div className="dashboard-wrapper">
-                    <div className="side-nav"><SideNav/></div>
-                    <main className='user'>
-                        <div className="user-container">
-                            <UserSummary/>
-                            <Table visibleItems={visibleItems}/>
-                            <Footer currentPage={currentPage}
-                                totalPages={totalPages}
-                                handlePageClick={handlePageClick}
-                                SelectPageOption={SelectPageOption}
-                                modifiedUserData={modifiedUserData}
-                                setSelectPageOption={setSelectPageOption}/>
+                    <div id="side-nav">
+                        <SideNav/>
+                    </div>
+                    <div className="users-data">
+                        <div className="users-container">
+                            <div className="user-summary">
+                                <UserSummary/>
+                            </div>
+                            <div className="table"><Table visibleItems={visibleItems}/></div>
+                            <div className="footer">
+                                <Footer currentPage={currentPage}
+                                    totalPages={totalPages}
+                                    handlePageClick={handlePageClick}
+                                    SelectPageOption={SelectPageOption}
+                                    modifiedUserData={modifiedUserData}
+                                    setSelectPageOption={setSelectPageOption}/>
+                            </div>
                         </div>
-                    </main>
+                    </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

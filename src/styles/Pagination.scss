@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
-
+    @media only screen and (max-width: $medium-screen) {
+        font-size: 12px;
+        display: grid;
+      }
 
 }
 
@@ -21,12 +24,10 @@
     margin: auto 2px;
     border: none;
     border-radius: 8px;
-
 }
 
 #pages-nav{
     background-color: #E5E8EE;
     border: none;
     border-radius: 5px;
-
 }

@@ -15,11 +15,10 @@
         justify-content: space-around;
         width: 100vw;
       }
-    @media only screen and (min-width: $medium-screen) and (max-width: $large-screen) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;;
-        justify-content: space-around;
-        width: 70%;
+    @media only screen and (min-width: $medium-screen) and (max-width: $extra-large-screen) {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
       }
 
 }
