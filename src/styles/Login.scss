@@ -69,6 +69,7 @@
     height: 100%;
     }
 
+
     .bg-image{
         width: 500px;
         margin-top:60px
@@ -76,12 +77,18 @@
     }
     &.left-control{
         margin: auto;
+        @media only screen and (max-width: $small-screen) {
+          justify-content: flex-start;
+
+         }
     }
 
     @media only screen and (max-width: $small-screen) {
-        margin-left: 2rem;;
-        justify-content: start;
+        #logo{
+        margin-left: 2px;
+        justify-content: flex-start;
         align-items: center;
+        }
         .bg-image{
             display: none;
         }
@@ -228,11 +235,19 @@ input[type= "submit"]{
       font-size: 12px;
 
     }
+    @media only screen and (max-width:500px)  {
+      right: 30%;
+      bottom:10px;
+      left: 60%;
+
+      font-size: 12px;
+
+    }
     @media only screen and (min-width:$medium-screen) and (max-width:$large-screen) {
       right: 30%;
       bottom:0;
       left: 60%;
-      
+
 
     }
 

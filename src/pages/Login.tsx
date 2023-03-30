@@ -42,7 +42,7 @@ const Login = () => {
             <div className="login-container">
                 <div className="left-section">
                     <div className="left-control">
-                        <Logo/>
+                        <div id="logo"><Logo/></div>
                         <div className='bg-image'>
                             <img alt="pablo" height="250"
                                 src={
