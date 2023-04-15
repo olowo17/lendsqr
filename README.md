@@ -1,6 +1,6 @@
 # Project description
 
-This project was built with React with TypeScript and SCSS.
+This project was built with React with TypeScript and SASS.
 
 ## Dependencies 
 
